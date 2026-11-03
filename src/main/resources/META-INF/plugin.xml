@@ -17,6 +17,9 @@ Includes <strong>Min Dark</strong> and <strong>Min Light</strong> (UI and editor
   <li>The matching editor color scheme is applied automatically (or pick it in <strong>Editor</strong> → <strong>Color Scheme</strong>)</li>
 </ul>
 
+<h3>Screenshots</h3>
+<p><img src="https://raw.githubusercontent.com/joansgarcia/min-jetbrains/main/screenshots/min-dark.png" width="800" alt="Min Dark"/></p>
+<p><img src="https://raw.githubusercontent.com/joansgarcia/min-jetbrains/main/screenshots/min-light.png" width="800" alt="Min Light"/></p>
 <p>LICENSE: MIT</p>
 ]]></description>
   <depends>com.intellij.modules.platform</depends>

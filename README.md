@@ -1,7 +1,25 @@
-# Min Theme for JetBrains
+<p align="center">
+  <img src="src/main/resources/META-INF/pluginIcon.png" alt="Min Theme logo" width="120" />
+</p>
+
+<h1 align="center">Min Theme for JetBrains</h1>
+
+<p align="center">
+  A minimal, distraction-free theme for IntelliJ-based IDEs.<br/>
+  Variants: <b>Min Dark</b> · <b>Min Light</b> (+ Islands)
+</p>
 
 Port of [Min Theme](https://github.com/miguelsolorio/min-theme) (Miguel Solorio) to JetBrains IDEs.
-Variants: **Min Dark**, **Min Light**.
+
+## Screenshots
+
+**Min Dark**
+
+![Min Dark](screenshots/min-dark.png)
+
+**Min Light**
+
+![Min Light](screenshots/min-light.png)
 
 ## Installation
 
