@@ -14,6 +14,16 @@
 
 ### Security
 
+## 0.1.3 - 2026-11-03
+
+### Fixed
+
+- Plugin logo now shipped as SVG (`pluginIcon.svg` and `pluginIcon_dark.svg`) so it shows in the IDE and Marketplace.
+
+### Added
+
+- Screenshots in the plugin description.
+
 ## 0.1.2 - 2026-11-03
 
 ### Changed
