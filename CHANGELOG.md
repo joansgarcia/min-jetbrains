@@ -14,6 +14,12 @@
 
 ### Security
 
+## 0.1.4 - 2026-11-03
+
+### Changed
+
+- Single plugin logo (`pluginIcon.svg`) used for both light and dark themes; removed `pluginIcon_dark.svg`.
+
 ## 0.1.3 - 2026-11-03
 
 ### Fixed
