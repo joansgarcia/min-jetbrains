@@ -11,6 +11,8 @@
 
 ![Build](https://github.com/joansgarcia/min-jetbrains/workflows/Build/badge.svg)
 [![Release](https://img.shields.io/github/v/release/joansgarcia/min-jetbrains)](https://github.com/joansgarcia/min-jetbrains/releases/latest)
+[![Version](https://img.shields.io/jetbrains/plugin/v/35766.svg)](https://plugins.jetbrains.com/plugin/35766-min-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/35766.svg)](https://plugins.jetbrains.com/plugin/35766-min-theme)
 
 Port of [Min Theme](https://github.com/miguelsolorio/min-theme) (Miguel Solorio) to JetBrains IDEs.
 
@@ -28,7 +30,7 @@ Port of [Min Theme](https://github.com/miguelsolorio/min-theme) (Miguel Solorio)
 
 ### Plugin Marketplace
 
-1. Head to the Plugin Marketplace (**Settings → Plugins → Marketplace**)
+1. Head to the [Plugin Marketplace](https://plugins.jetbrains.com/plugin/35766-min-theme) (**Settings → Plugins → Marketplace**)
 2. Search for "Min Theme"
 3. Install Plugin
 
