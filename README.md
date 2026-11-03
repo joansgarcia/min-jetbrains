@@ -9,6 +9,9 @@
   Variants: <b>Min Dark</b> · <b>Min Light</b> (+ Islands)
 </p>
 
+![Build](https://github.com/joansgarcia/min-jetbrains/workflows/Build/badge.svg)
+[![Release](https://img.shields.io/github/v/release/joansgarcia/min-jetbrains)](https://github.com/joansgarcia/min-jetbrains/releases/latest)
+
 Port of [Min Theme](https://github.com/miguelsolorio/min-theme) (Miguel Solorio) to JetBrains IDEs.
 
 ## Screenshots
@@ -23,10 +26,21 @@ Port of [Min Theme](https://github.com/miguelsolorio/min-theme) (Miguel Solorio)
 
 ## Installation
 
+### Plugin Marketplace
+
+1. Head to the Plugin Marketplace (**Settings → Plugins → Marketplace**)
+2. Search for "Min Theme"
+3. Install Plugin
+
+### Manual
+
 1. Download `Min-Theme-<version>.zip` from the [latest release](https://github.com/joansgarcia/min-jetbrains/releases/latest).
 2. In your IDE: **Settings → Plugins → ⚙ → Install Plugin from Disk…** and select the zip.
 3. Restart the IDE.
-4. **Settings → Appearance & Behavior → Appearance → Theme**: pick *Min Dark* or *Min Light* (the *Islands* variants are also available). The matching editor color scheme is applied automatically; otherwise choose it in **Editor → Color Scheme**.
+
+### Activate the theme
+
+**Settings → Appearance & Behavior → Appearance → Theme**: pick *Min Dark* or *Min Light* (the *Islands* variants are also available). The matching editor color scheme is applied automatically; otherwise choose it in **Editor → Color Scheme**.
 
 Compatible with IntelliJ-based IDEs, builds 231 – 262.*.
 
