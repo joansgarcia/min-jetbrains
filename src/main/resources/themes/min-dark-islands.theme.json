@@ -1,0 +1,387 @@
+{
+  "name": "Islands Min Dark",
+  "dark": true,
+  "author": "sebastiandotdev (port of Min Theme by Miguel Solorio)",
+  "editorScheme": "/themes/min-dark.xml",
+  "colors": {
+    "bg": "#1f1f1f",
+    "panel": "#1A1A1A",
+    "panelAlt": "#202020",
+    "border": "#2A2A2A",
+    "borderFocus": "#444444",
+    "selection": "#212121",
+    "selectionFocus": "#292929",
+    "hover": "#262626",
+    "fg": "#888888",
+    "fgStrong": "#FAFAFA",
+    "fgMuted": "#727272",
+    "fgDisabled": "#484848",
+    "input": "#2A2A2A",
+    "inputFg": "#E0E0E0",
+    "badge": "#383838",
+    "badgeFg": "#C1C1C1",
+    "button": "#333333",
+    "accent": "#79b8ff",
+    "lineNumber": "#727272",
+    "indentGuide": "#2A2A2A",
+    "indentGuideActive": "#383838",
+    "lineHighlight": "#262626",
+    "textSelection": "#383838",
+    "caret": "#FAFAFA",
+    "text": "#cccccc",
+    "keyword": "#f97583",
+    "string": "#ffab70",
+    "string2": "#9db1c5",
+    "comment": "#6b737c",
+    "constant": "#79b8ff",
+    "number": "#f8f8f8",
+    "function": "#b392f0",
+    "type": "#b392f0",
+    "parameter": "#FF9800",
+    "punctuation": "#bbbbbb",
+    "tag": "#ffab70",
+    "attribute": "#f8f8f8",
+    "red": "#FF7A84",
+    "green": "#7ee787",
+    "blue": "#79b8ff",
+    "orange": "#FF9800",
+    "diffInserted": "#2b3d26",
+    "diffDeleted": "#452030",
+    "diffModified": "#25354a",
+    "diffConflict": "#4a3a20",
+    "ansiBlack": "#1A1A1A",
+    "ansiBrightBlack": "#5c5c5c",
+    "ansiRed": "#f97583",
+    "ansiGreen": "#7ee787",
+    "ansiYellow": "#ffab70",
+    "ansiBlue": "#79b8ff",
+    "ansiMagenta": "#b392f0",
+    "ansiCyan": "#9db1c5",
+    "ansiWhite": "#bbbbbb",
+    "ansiBrightWhite": "#FAFAFA"
+  },
+  "ui": {
+    "*": {
+      "foreground": "fg",
+      "background": "bg",
+      "selectionBackground": "selection",
+      "selectionForeground": "fgStrong",
+      "selectionInactiveBackground": "selection",
+      "selectionInactiveForeground": "fgStrong",
+      "disabledForeground": "fgDisabled",
+      "disabledBackground": "bg",
+      "inactiveForeground": "fgMuted",
+      "separatorColor": "border",
+      "borderColor": "border",
+      "focusColor": "borderFocus",
+      "infoForeground": "fgMuted",
+      "acceleratorForeground": "fgMuted",
+      "acceleratorSelectionForeground": "fgStrong"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "pressedBackground": "hover"
+    },
+    "Borders": {
+      "color": "border",
+      "ContrastBorderColor": "border"
+    },
+    "Button": {
+      "background": "button",
+      "foreground": "fgStrong",
+      "startBackground": "button",
+      "endBackground": "button",
+      "startBorderColor": "button",
+      "endBorderColor": "button",
+      "focusedBorderColor": "borderFocus",
+      "default": {
+        "foreground": "bg",
+        "startBackground": "fgStrong",
+        "endBackground": "fgStrong",
+        "startBorderColor": "fgStrong",
+        "endBorderColor": "fgStrong",
+        "focusedBorderColor": "borderFocus"
+      }
+    },
+    "Component": {
+      "borderColor": "border",
+      "focusedBorderColor": "borderFocus",
+      "focusColor": "borderFocus",
+      "errorFocusColor": "red",
+      "inactiveErrorFocusColor": "red",
+      "warningFocusColor": "orange",
+      "inactiveWarningFocusColor": "orange"
+    },
+    "CompletionPopup": {
+      "background": "panel",
+      "selectionBackground": "selectionFocus",
+      "selectionInactiveBackground": "selection",
+      "matchForeground": "fgStrong"
+    },
+    "Counter": {
+      "background": "badge",
+      "foreground": "badgeFg"
+    },
+    "DefaultTabs": {
+      "background": "panel",
+      "hoverBackground": "hover",
+      "underlinedTabBackground": "bg",
+      "underlineColor": "fgStrong",
+      "inactiveUnderlineColor": "fgMuted",
+      "underlineHeight": 1
+    },
+    "EditorPane": {
+      "background": "bg",
+      "inactiveBackground": "bg"
+    },
+    "EditorTabs": {
+      "background": "panel",
+      "underlinedTabBackground": "bg",
+      "underlinedTabForeground": "fgStrong",
+      "underlineColor": "fgStrong",
+      "inactiveUnderlineColor": "fgMuted",
+      "hoverBackground": "hover",
+      "borderColor": "panel",
+      "inactiveColoredFileBackground": "panel",
+      "underlineHeight": 1
+    },
+    "Link": {
+      "activeForeground": "fgStrong",
+      "hoverForeground": "fgStrong",
+      "pressedForeground": "fgStrong",
+      "visitedForeground": "fg",
+      "secondaryForeground": "fgMuted"
+    },
+    "List": {
+      "background": "bg",
+      "foreground": "fg",
+      "hoverBackground": "hover",
+      "hoverInactiveBackground": "hover",
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selection",
+      "selectionForeground": "fgStrong",
+      "selectionInactiveForeground": "fgStrong"
+    },
+    "MainToolbar": {
+      "background": "panel",
+      "Icon": {
+        "background": "panel",
+        "hoverBackground": "hover"
+      }
+    },
+    "Menu": {
+      "background": "panel",
+      "foreground": "fg",
+      "borderColor": "border",
+      "selectionBackground": "selection",
+      "selectionForeground": "fgStrong"
+    },
+    "MenuBar": {
+      "background": "panel",
+      "selectionBackground": "selection"
+    },
+    "MenuItem": {
+      "background": "panel",
+      "foreground": "fg",
+      "selectionBackground": "selection",
+      "selectionForeground": "fgStrong"
+    },
+    "NavBar": {
+      "borderColor": "panel"
+    },
+    "Notification": {
+      "background": "panel",
+      "borderColor": "border",
+      "foreground": "fg",
+      "errorBackground": "panel",
+      "errorBorderColor": "red",
+      "errorForeground": "fg"
+    },
+    "OptionPane": {
+      "background": "panel"
+    },
+    "Panel": {
+      "background": "panel"
+    },
+    "ParameterInfo": {
+      "background": "panel",
+      "foreground": "fg",
+      "borderColor": "border"
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "panel",
+        "inactiveBackground": "panel"
+      },
+      "borderColor": "border",
+      "inactiveBorderColor": "border",
+      "Toolbar": {
+        "background": "panel",
+        "borderColor": "border"
+      }
+    },
+    "PopupMenu": {
+      "background": "panel",
+      "foreground": "fg",
+      "selectionBackground": "selection",
+      "selectionForeground": "fgStrong"
+    },
+    "ProgressBar": {
+      "foreground": "fgStrong",
+      "trackColor": "border",
+      "progressColor": "fgStrong",
+      "passedColor": "fgStrong",
+      "indeterminateStartColor": "fgStrong",
+      "indeterminateEndColor": "fgMuted"
+    },
+    "ScrollBar": {
+      "thumbColor": "badge",
+      "hoverThumbColor": "borderFocus",
+      "Thumb": {
+        "background": "badge",
+        "hoverBackground": "borderFocus"
+      }
+    },
+    "SearchEverywhere": {
+      "Header": {
+        "background": "panelAlt"
+      },
+      "SearchField": {
+        "background": "input",
+        "borderColor": "border"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "textSelection",
+      "endBackground": "textSelection"
+    },
+    "SidePanel": {
+      "background": "panel"
+    },
+    "Separator": {
+      "separatorColor": "border"
+    },
+    "SplitPane": {
+      "background": "border"
+    },
+    "StatusBar": {
+      "background": "panel",
+      "borderColor": "panel",
+      "foreground": "fg",
+      "hoverBackground": "hover"
+    },
+    "TabbedPane": {
+      "background": "panel",
+      "contrastColor": "border",
+      "focusColor": "selection",
+      "hoverColor": "hover",
+      "underlineColor": "fgStrong",
+      "selectedColor": "fgStrong",
+      "selectedBackground": "bg"
+    },
+    "Table": {
+      "background": "bg",
+      "foreground": "fg",
+      "gridColor": "border",
+      "hoverBackground": "hover",
+      "selectionBackground": "selection",
+      "selectionForeground": "fgStrong",
+      "selectionInactiveBackground": "selection",
+      "stripeColor": "panel"
+    },
+    "TableHeader": {
+      "background": "panel",
+      "borderColor": "border",
+      "bottomSeparatorColor": "border"
+    },
+    "TextArea": {
+      "background": "input",
+      "foreground": "inputFg",
+      "selectionBackground": "textSelection",
+      "selectionForeground": "fgStrong"
+    },
+    "TextField": {
+      "background": "input",
+      "foreground": "inputFg",
+      "borderColor": "border",
+      "selectionBackground": "textSelection",
+      "selectionForeground": "fgStrong"
+    },
+    "ToggleButton": {
+      "onBackground": "fgStrong",
+      "offBackground": "badge",
+      "onForeground": "bg",
+      "offForeground": "fg"
+    },
+    "ToolBar": {
+      "background": "panel",
+      "borderHandleColor": "fgDisabled",
+      "floatingForeground": "fg"
+    },
+    "ToolTip": {
+      "background": "panelAlt",
+      "foreground": "fgStrong",
+      "borderColor": "border",
+      "infoForeground": "fgMuted"
+    },
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "hover",
+        "selectedBackground": "selection",
+        "selectedForeground": "fgStrong"
+      },
+      "Header": {
+        "background": "panel",
+        "inactiveBackground": "panel",
+        "borderColor": "panel"
+      }
+    },
+    "Tree": {
+      "background": "panel",
+      "foreground": "fg",
+      "hash": "border",
+      "hoverBackground": "hover",
+      "hoverInactiveBackground": "hover",
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "selection",
+      "selectionForeground": "fgStrong",
+      "selectionInactiveForeground": "fgStrong"
+    },
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "selection"
+        }
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "selection",
+          "hoveredBackground": "hover"
+        }
+      }
+    },
+    "WelcomeScreen": {
+      "background": "bg",
+      "borderColor": "border",
+      "captionBackground": "panel",
+      "captionForeground": "fg",
+      "footerBackground": "panel",
+      "footerForeground": "fgMuted",
+      "headerBackground": "bg",
+      "headerForeground": "fgStrong",
+      "Projects": {
+        "background": "panel",
+        "selectionBackground": "selection",
+        "selectionInactiveBackground": "selection"
+      }
+    },
+    "Islands": 1,
+    "Island": {
+      "borderColor": "panel"
+    }
+  },
+  "icons": {
+    "ColorPalette": {}
+  },
+  "parentTheme": "Islands Dark"
+}

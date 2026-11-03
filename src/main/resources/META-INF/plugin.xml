@@ -1,0 +1,31 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <id>com.github.sebastiandotdev.min.jetbrains</id>
+  <name>Min Theme</name>
+  <vendor url="https://github.com/sebastiandotdev">sebastiandotdev</vendor>
+  <description><![CDATA[
+<h2>A minimal, distraction-free theme for JetBrains IDEs</h2>
+
+<p>
+Port of <a href="https://github.com/miguelsolorio/min-theme">Min Theme</a> by Miguel Solorio.
+Includes <strong>Min Dark</strong> and <strong>Min Light</strong> (UI and editor color scheme).
+</p>
+
+<h3>Usage</h3>
+<ul>
+  <li>Head to <strong>Settings</strong> → <strong>Appearance &amp; Behavior</strong> → <strong>Appearance</strong> and pick a Min theme</li>
+  <li>The matching editor color scheme is applied automatically (or pick it in <strong>Editor</strong> → <strong>Color Scheme</strong>)</li>
+</ul>
+
+<p>LICENSE: MIT</p>
+]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.github.sebastiandotdev.min.dark.jetbrains" path="/themes/min-dark.theme.json"/>
+    <themeProvider id="com.github.sebastiandotdev.min.light.jetbrains" path="/themes/min-light.theme.json"/>
+    <themeProvider id="com.github.sebastiandotdev.min.dark.islands.jetbrains" path="/themes/min-dark-islands.theme.json" targetUi="islands"/>
+    <themeProvider id="com.github.sebastiandotdev.min.light.islands.jetbrains" path="/themes/min-light-islands.theme.json" targetUi="islands"/>
+    <bundledColorScheme id="com.github.sebastiandotdev.min.dark.scheme.jetbrains" path="/themes/min-dark"/>
+    <bundledColorScheme id="com.github.sebastiandotdev.min.light.scheme.jetbrains" path="/themes/min-light"/>
+  </extensions>
+</idea-plugin>
