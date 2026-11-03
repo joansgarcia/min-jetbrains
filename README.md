@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/main/resources/META-INF/pluginIcon.png" alt="Min Theme logo" width="120" />
+  <img src="src/main/resources/META-INF/pluginIcon.svg" alt="Min Theme logo" width="120" />
 </p>
 
 <h1 align="center">Min Theme for JetBrains</h1>
