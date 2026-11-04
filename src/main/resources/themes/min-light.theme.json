@@ -1,7 +1,7 @@
 {
   "name": "Min Light",
   "dark": false,
-  "author": "sebastiandotdev (port of Min Theme by Miguel Solorio)",
+  "author": "joansebgarcia (port of Min Theme by Miguel Solorio)",
   "editorScheme": "/themes/min-light.xml",
   "colors": {
     "bg": "#ffffff",

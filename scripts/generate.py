@@ -12,7 +12,7 @@ def ui_theme(p, islands=False):
     t = {
         "name": ("Islands " if islands else "") + p["name"],
         "dark": p["dark"],
-        "author": "sebastiandotdev (port of Min Theme by Miguel Solorio)",
+        "author": "joansebgarcia (port of Min Theme by Miguel Solorio)",
         "editorScheme": f"/themes/{p['id']}.xml",
         "colors": {k: v for k, v in c.items()},
         "ui": {

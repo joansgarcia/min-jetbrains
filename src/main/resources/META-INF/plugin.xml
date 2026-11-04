@@ -2,7 +2,7 @@
 <idea-plugin>
   <id>com.github.sebastiandotdev.min.jetbrains</id>
   <name>Min Theme</name>
-  <vendor url="https://github.com/sebastiandotdev">sebastiandotdev</vendor>
+  <vendor url="https://github.com/joansebgarcia">joansebgarcia</vendor>
   <description><![CDATA[
 <h2>A minimal, distraction-free theme for JetBrains IDEs</h2>
 

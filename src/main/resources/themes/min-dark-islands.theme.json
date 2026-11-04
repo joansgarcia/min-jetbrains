@@ -1,7 +1,7 @@
 {
   "name": "Islands Min Dark",
   "dark": true,
-  "author": "sebastiandotdev (port of Min Theme by Miguel Solorio)",
+  "author": "joansebgarcia (port of Min Theme by Miguel Solorio)",
   "editorScheme": "/themes/min-dark.xml",
   "colors": {
     "bg": "#1f1f1f",
