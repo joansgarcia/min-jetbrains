@@ -36,7 +36,7 @@
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="D32F2F"/>
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -333,7 +333,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="D32F2F"/>
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -348,7 +348,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -514,7 +514,7 @@
     <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
     <option name="JS.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="D32F2F"/>
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
@@ -545,7 +545,7 @@
     <option name="JSON.NUMBER" baseAttributes="DEFAULT_NUMBER"/>
     <option name="JSON.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="JSON.PROPERTY_KEY">
@@ -561,12 +561,12 @@
     </option>
     <option name="KOTLIN_ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="D32F2F"/>
       </value>
     </option>
     <option name="KOTLIN_ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="KOTLIN_ARROW">
@@ -749,7 +749,7 @@
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="KOTLIN_NUMBER">
@@ -784,7 +784,7 @@
     </option>
     <option name="KOTLIN_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="KOTLIN_PARENTHESIS">
@@ -1026,7 +1026,7 @@
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD"/>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="TEXT">
@@ -1131,7 +1131,7 @@
     </option>
     <option name="YAML_ANCHOR">
       <value>
-        <option name="FOREGROUND" value="FF9800"/>
+        <option name="FOREGROUND" value="24292e"/>
       </value>
     </option>
     <option name="YAML_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT"/>

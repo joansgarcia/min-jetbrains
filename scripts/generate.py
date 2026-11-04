@@ -267,7 +267,7 @@ def editor_scheme(p):
         attr("DEFAULT_LABEL", fg=c["constant"]),
         attr("DEFAULT_LINE_COMMENT", fg=c["comment"]),
         attr("DEFAULT_LOCAL_VARIABLE", fg=c["constant"]),
-        attr("DEFAULT_METADATA", fg=c["parameter"]),
+        attr("DEFAULT_METADATA", fg=c["keyword"]),
         attr("DEFAULT_NUMBER", fg=c["number"]),
         attr("DEFAULT_OPERATION_SIGN", fg=c["keyword"]),
         attr("DEFAULT_PARAMETER", fg=c["parameter"]),
@@ -289,7 +289,7 @@ def editor_scheme(p):
         attr("CONSTRUCTOR_DECLARATION_ATTRIBUTES", base="DEFAULT_FUNCTION_DECLARATION"),
         attr("ENUM_CONST", fg=c["constant"]),
         attr("INTERFACE_NAME_ATTRIBUTES", base="DEFAULT_INTERFACE_NAME"),
-        attr("ANNOTATION_NAME_ATTRIBUTES", fg=c["parameter"]),
+        attr("ANNOTATION_NAME_ATTRIBUTES", fg=c["keyword"]),
         attr("ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES", fg=c["attribute"]),
         attr("METHOD_CALL_ATTRIBUTES", base="DEFAULT_FUNCTION_CALL"),
         attr("METHOD_DECLARATION_ATTRIBUTES", base="DEFAULT_FUNCTION_DECLARATION"),
@@ -314,7 +314,7 @@ def editor_scheme(p):
         attr("JS.GLOBAL_VARIABLE", base="DEFAULT_GLOBAL_VARIABLE"),
         attr("JS.GLOBAL_FUNCTION", base="DEFAULT_FUNCTION_DECLARATION"),
         attr("JS.INSTANCE_MEMBER_FUNCTION", base="DEFAULT_INSTANCE_METHOD"),
-        attr("JS.DECORATOR", fg=c["parameter"]),
+        attr("JS.DECORATOR", fg=c["keyword"]),
         attr("JS.REGEXP", fg=c["string"]),
         attr("TS.MODULE_NAME", fg=c["text"]),
         attr("TS.TYPE_PARAMETER", fg=c["type"]),
@@ -359,8 +359,9 @@ def editor_scheme(p):
               "BACKING_FIELD_VARIABLE"]:
         kt[k] = dict(fg=c["string2"])
     kt["NAMED_ARGUMENT"] = dict(fg=c["parameter"])
-    for k in ["PARAMETER", "ANNOTATION", "ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES"]:
+    for k in ["PARAMETER", "ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES"]:
         kt[k] = dict(fg=c["parameter"])
+    kt["ANNOTATION"] = dict(fg=c["keyword"])
     kt["BUILTIN_ANNOTATION"] = dict(fg=c["keyword"])  # modificadores: private, const, override...
     kt["STRING"] = dict(fg=c["string"])
     kt["STRING_ESCAPE"] = dict(fg=c["constant"])

@@ -14,6 +14,13 @@
 
 ### Security
 
+## 0.1.5 - 2026-11-04
+
+### Changed
+
+- Decorators and annotations use the keyword color (pink in Min Dark, red in Min Light).
+- Parameters and named arguments use the neutral text color (white in Min Dark, dark in Min Light) instead of orange.
+
 ## 0.1.4 - 2026-11-03
 
 ### Changed
