@@ -20,11 +20,12 @@ Port of [Min Theme](https://github.com/miguelsolorio/min-theme) (Miguel Solorio)
 
 **Min Dark**
 
-![Min Dark](screenshots/min-dark.png)
+<img width="1781" height="1120" alt="image" src="https://github.com/user-attachments/assets/9d432c83-d9ca-4c0c-ad19-ebf13add3faa" />
 
 **Min Light**
 
-![Min Light](screenshots/min-light.png)
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/93584b36-9b86-4fdc-ab2c-6a3412cb3c60" />
+
 
 ## Installation
 
