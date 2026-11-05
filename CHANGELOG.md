@@ -14,6 +14,12 @@
 
 ### Security
 
+## 0.1.6 - 2026-11-05
+
+### Fixed
+
+- Compatible with IDE builds newer than 262 (removed `until-build` limit).
+
 ## 0.1.5 - 2026-11-04
 
 ### Changed

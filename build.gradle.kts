@@ -100,7 +100,6 @@ tasks {
     patchPluginXml {
         pluginVersion.set(providers.gradleProperty("pluginVersion"))
         sinceBuild.set(providers.gradleProperty("pluginSinceBuild"))
-        untilBuild.set(providers.gradleProperty("pluginUntilBuild"))
 
         // Get the latest available change notes from the changelog file
         changeNotes.set(
